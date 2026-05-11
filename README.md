@@ -22,4 +22,11 @@ The cleaned Sales dataset using python libraries like Pandas containing only 202
 8. Filtered the df to only last 2 years i.e 2024-2025 as 'filtered_df' which could improve load time in reporting.
 9. Format 'order_id' column as First 2 letters from 'country' in upper + year from 'Month_year' + Last numbers from 'order_id' using slicing. _(Eg- AU-2024-37383)_
 10. Drop unnecessary columns from new 'filtered_df' df
-11. Save this cleaned df into excel sheet as 'cleaned_sales_data.xlsx'. 
+11. Save this cleaned df into excel sheet as 'cleaned_sales_data.xlsx'.
+
+## Visualization Project
+
+The cleaned dataset generated in this project was later used to build an interactive Tableau dashboard.
+
+Tableau Dashboard Repository:
+https://github.com/Himanshu2311garg/NovaMart-Retail-Analytics-Tableau
